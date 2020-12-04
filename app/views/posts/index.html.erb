@@ -11,7 +11,7 @@
 
   <tbody>
     <% @posts.each do |post| %>
-      <% cache post do %>
+      <% cache post  do %>
         <tr>
           <td><%= post.title %></td>
           <td><%= post.body %></td>

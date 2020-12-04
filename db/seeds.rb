@@ -1,4 +1,4 @@
-for i in 1..30 do
+for i in 1..250 do
     begin
         post = Post.new(title: "Post number #{i}", body: "Post body description #{i}")
     
